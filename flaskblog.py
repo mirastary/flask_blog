@@ -1,4 +1,6 @@
 from flask import Flask, render_template, url_for
+
+# Ended up here: https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3
 app = Flask(__name__)
 
 posts = [
@@ -28,6 +30,3 @@ def about():
 # with this condition we can run app by $python flaskblog.py
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-# Ended up here: https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3
